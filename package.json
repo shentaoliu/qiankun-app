@@ -1,0 +1,23 @@
+{
+  "name": "qiankun-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "qiankun": "^2.10.16"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.3",
+    "vite": "^6.1.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5"
+  },
+  "packageManager": "pnpm@10.28.0"
+}
